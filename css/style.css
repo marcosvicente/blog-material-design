@@ -1,0 +1,80 @@
+.mdl-layout__drawer-button{
+	 background:rgba(201, 171, 171, 0.3) none repeat scroll 0% 0%; 
+}
+.mdl-layout__drawer-button:hover{
+	background:rgb(201, 171, 171, 1) none repeat scroll 0% 0%;
+}
+.mdl-layout__drawer-button i{
+	color: #000;;
+}
+.titulo{
+	padding:5em;
+	text-align: center;
+	background: url('../img/astronauta400.png');
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-position:center center;
+	margin:0;
+	width:100%;
+	height:100%;
+}
+.titulo h1{
+	background:rgba(52, 52, 53, 0.3) none repeat scroll 0% 0%;
+	padding: 2em;
+	
+	color: #fff;
+	text-align: center;
+	font-size: 2em;
+	display: block;
+	width: 50%;
+}
+.titulo h1:hover{	
+	background: rgba(52, 52, 53, 1) none repeat scroll 0% 0%;
+}
+.titulo-menu {
+	width: 100%;
+	text-align: left;
+	color:#fff;
+	margin: 2em 1em;
+
+	padding: 1em;
+}
+.titulo-menu h2{
+	border-bottom:0.1em solid  #020217;
+	width: 10em;
+	padding: 0.2em;
+}
+.material-ions{
+	color:#000;
+}
+.descer {
+	margin: -25em auto 0 auto;
+	display: block;
+}
+.descer span{
+	background: red;
+}
+.is-animating {width: 160.392px; height: 160.392px; transform: translate(-50%, -50%) translate(34px, 23px);}
+.post{
+	background: url('../img/espaco.jpg') center / cover;
+	margin: -2em;
+	padding: 4em;
+
+}
+
+@media screen and (max-width:60em){
+	.titulo{
+		background: url('../img/astronauta600.png');
+	}
+}
+
+@media screen and (max-width:90em){
+	body{
+	}
+}
+
+@media screen and(max-width:100em){
+	body{
+		background:red;
+	}
+}
